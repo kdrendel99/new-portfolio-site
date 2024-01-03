@@ -74,8 +74,8 @@ export const Carousel = () => {
         <div className="flex flex-col w-full justify-center items-center py-8">
             <div className='flex w-full overflow-hidden' ref={viewportRef}>
                 <div className='flex items-center w-full'>
-                    {faqs.map((obj) => (
-                        <div className='w-full grow-0 shrink-0 basis-full hover:cursor-grab'>
+                    {faqs.map((obj, idx) => (
+                        <div className='w-full grow-0 shrink-0 basis-full hover:cursor-grab' key={idx}>
                             <div className='text-center text-accentColor text-5xl flex justify-center items-center'>
                                 {obj.img}
                             </div>
