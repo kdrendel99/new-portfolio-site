@@ -1,0 +1,7 @@
+export enum SCROLL_ELEMENTS  {
+  NONE = 'NONE',
+  ABOUT = 'ABOUT',
+  RESUME = 'RESUME',
+  PERSONAL = 'PERSONAL',
+  CONTACT = 'CONTACT'
+}
