@@ -1,0 +1,106 @@
+@import './colors.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+
+@font-face {
+  font-family: "nwt";
+  src: url("../public/fonts/NWT.otf");
+}
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --grey: #999999;
+  --darkGrey: #898989;
+  --accentColor: #6F7259;
+  --accentColor2: #434535;
+  --white: #ffffff;
+  --offwhite: #f7f7f7;
+  --darkModeBg: #1d1d1d;
+  --red: #f44336;
+  --blue: #2196F3;
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --red: #2196F3;
+  }
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.fa-theme {
+  color: var(--grey);
+}
+
+.fa-theme:hover {
+  color: var(--accentColor);
+}
+
+#coveyNav {
+  height: auto;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+  /* @include mobile() {
+      #coveyNavMenu {
+          width: 55%;
+      }
+      .navbar-brand {
+          padding-left: 0.75rem;
+      }
+  } */
+}
+
+.navbar-slide-in {
+  animation: slide_in 250ms ease-in-out forwards;
+}
+
+.navbar-slide-out {
+  animation: slide_out 250ms ease-in-out forwards;
+}
+
+@keyframes slide_in {
+  0%{
+      transform: translateX(0px);
+  }
+
+  100%{
+      transform: translateX(-384px);
+  }
+}
+
+@keyframes slide_out {
+  0%{
+      transform: translateX(-384px);
+  }
+
+  100%{
+      transform: translateX(0px);
+  }
+}

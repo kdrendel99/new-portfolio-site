@@ -1,0 +1,25 @@
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --grey: #999999;
+  --darkGrey: #898989;
+  --accentColor: #6F7259;
+  --accentColor2: #434535;
+  --white: #ffffff;
+  --offwhite: #f7f7f7;
+  --darkModeBg: #1d1d1d;
+  --red: #f44336;
+  --blue: #2196F3;
+}
+
+[data-theme="dark"] {
+  --red: #2196F3;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --red: #2196F3;
+  }
+
+} */

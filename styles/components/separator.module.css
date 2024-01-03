@@ -1,0 +1,114 @@
+
+
+/* .separator {
+  position: relative;
+  width: 300px;
+  height: 100px;
+}
+
+
+
+.separator::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #f44336;
+  background-color: (var(--red));
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+.separator::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #2196F3;
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+.separator.reverse {
+  transform: rotateY(180deg);
+}
+
+.vertical .separator.reverse {
+  transform: rotateX(180deg);
+} */
+
+
+
+.separator {
+  /* position: relative;
+  width: 300px;
+  height: 100px; */
+}
+
+
+/* red: #f44336 */
+/* blue: #2196F3  */
+
+.separator::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+.separator::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+.separator.reverse {
+  transform: rotateY(180deg);
+}
+
+.vertical .separator.reverse {
+  transform: rotateX(180deg);
+}
+
+.separator::before {
+  background-color: #ffffff;
+
+}
+
+.separator::after {
+  background-color: transparent;
+}
+
+
+.separatorDark::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+.separatorDark::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+.separatorDark.reverse {
+  transform: rotateY(180deg);
+}
+
+.vertical .separatorDark.reverse {
+  transform: rotateX(180deg);
+}
+
+.separatorDark::before {
+  background-color: #292727;
+}
+
+.separatorDark::after {
+  background-color: #212121;
+}
