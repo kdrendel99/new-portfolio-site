@@ -26,6 +26,8 @@ export const Nav = () => {
     toggleHamburger()
   }
 
+  return (<div></div>)
+
   return (
     // <div className={`${shouldShowNav ? 'top-0 sticky' : 'hidden'} z-50 transition-all duration-500`}>
     // <div className={getNavClass()} style={{marginTop:'-54px'}}>
