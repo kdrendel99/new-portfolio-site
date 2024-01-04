@@ -23,6 +23,7 @@ class MyDocument extends Document {
                         crossOrigin=''
                         type='font/otf'
                     />
+                    <link rel="shortcut icon" href="/static/kd-favicon.png" />
                 </Head>
 
                 <body className="dark:bg-[#000000]">
