@@ -70,11 +70,11 @@ export const Resume = () => {
           <h1 className='text-2xl uppercase font-bold tracking-wider'>Experience</h1>
         </div>
         
-        <div className='flex justify-center flex-col space-y-8 items-center w-[450px] md:w-[600px] xl:hidden py-16'>
+        <div className='flex justify-center flex-col space-y-8 items-center w-[450px] md:w-[600px] xl:hidden py-16 px-10'>
           {mobileOrder()}
         </div>
 
-        <div className='hidden xl:flex xl:flex-row items-start xl:w-[1200px] py-16 justify-start space-y-0 space-x-8'>  
+        <div className='hidden xl:flex xl:flex-row items-start xl:w-[1200px] py-16 justify-start space-y-0 space-x-8 px-10'>  
         {desktopOrder()}
         </div>
       </div>
