@@ -53,7 +53,7 @@ export const Nav = () => {
                           className={`box-border group-hover:bg-accentColor h-[2px] w-full transition-all duration-300 
                       ${
                           isOpenHamburger
-                              ? 'rotate-[135deg] bg-white dark:bg-darkModeBg'
+                              ? 'rotate-[135deg] bg-accentColor'
                               : 'bg-grey hover:bg-accentColor'
                       } diagonal_part_1`}
                       />
@@ -71,7 +71,7 @@ export const Nav = () => {
                           className={`box-border group-hover:bg-accentColor h-[2px] w-full transition-all duration-300 float-left  
                       ${
                           isOpenHamburger
-                              ? 'rotate-[-135deg] -mt-[7px] bg-white dark:bg-darkModeBg'
+                              ? 'rotate-[-135deg] -mt-[7px] bg-accentColor'
                               : 'mt-[5px] bg-grey hover:bg-accentColor'
                       } diagonal_part_2`}
                       />
@@ -79,7 +79,7 @@ export const Nav = () => {
               </div>
             </div>
           </nav>
-          <div className={`relative z-50 h-[0px] ${
+          <div className={`relative h-[0px] ${
             isOpenHamburger ? '' : 'hidden'
             }`}>
               <div
@@ -91,23 +91,23 @@ export const Nav = () => {
               <nav
                   className={`fixed top-[44px] -right-[384px] bottom-0 ${
                       isOpenHamburger ? 'navbar-slide-in' : 'navbar-slide-out'
-                  } flex flex-col w-[384px] max-w-sm px-6 py-6 border-r border-r-white bg-white dark:bg-darkModeBg`}
+                  } flex flex-col w-[384px] max-w-sm px-6 py-6 border-r border-r-white bg-white dark:bg-darkModeBg z-50`}
               >
-                  <div className='text-black uppercase font-america dark:text-grey'>
+                  <div className='uppercase text-xl font-america dark:text-grey text-accentColor'>
                           <ul>
-                              <li className='mb-1 hover:cursor-pointer'>
+                              <li className='mb-10 hover:cursor-pointer'>
                                 Home
                               </li>
-                              <li className='mb-1 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.ABOUT)}>
+                              <li className='mb-10 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.ABOUT)}>
                                 About
                               </li>
-                              <li className='mb-1 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.RESUME)}>
+                              <li className='mb-10 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.RESUME)}>
                                 Resume
                               </li>
-                              {/* <li className='mb-1 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.PERSONAL)}>
+                              {/* <li className='mb-10 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.PERSONAL)}>
                                 Blog/Photo
                               </li> */}
-                              <li className='mb-1 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.CONTACT)}>
+                              <li className='mb-10 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.CONTACT)}>
                                 Contact
                               </li>
                           </ul>
@@ -118,7 +118,7 @@ export const Nav = () => {
                               Drendel.co
                           </div>
                       </div> */}
-                      <p className='my-4 text-xs text-center text-gray-400 uppercase font-america'>
+                      <p className='my-4 text-xs text-center text-gray-400 dark:text-grey uppercase font-america'>
                           <span>Copyright © 2023</span>
                       </p>
                   </div>
