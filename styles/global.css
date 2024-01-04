@@ -45,9 +45,6 @@ html {
 }
 
 @media (max-width:801px)  {
-  body {
-    overflow: hidden; /* Hide scrollbars */
-  }
   html {
     min-width: 450px;
   }
