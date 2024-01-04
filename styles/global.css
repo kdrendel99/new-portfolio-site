@@ -44,6 +44,19 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (max-width:801px)  {
+  body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+  html {
+    min-width: 450px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
