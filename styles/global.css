@@ -62,21 +62,6 @@ body {
   color: var(--accentColor);
 }
 
-#coveyNav {
-  height: auto;
-  width: 100%;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-
-  /* @include mobile() {
-      #coveyNavMenu {
-          width: 55%;
-      }
-      .navbar-brand {
-          padding-left: 0.75rem;
-      }
-  } */
-}
-
 .navbar-slide-in {
   animation: slide_in 250ms ease-in-out forwards;
 }
