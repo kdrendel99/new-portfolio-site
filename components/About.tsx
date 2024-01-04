@@ -4,12 +4,12 @@ import Image from 'next/image'
 
 export const About = () => {
   return (
-    <div className="flex w-full flex-col items-center pt-28 justify-center bg-offwhite dark:bg-darkModeBg-no dark:bg-[#212121]">
+    <div className="flex w-full flex-col items-center pt-16 lg:pt-10 justify-center bg-offwhite dark:bg-darkModeBg-no dark:bg-[#212121]">
       <div className="flex flex-col sm:w-[560px] md:w-[696px] lg:w-[960px] px-10 sm:px-3 justify-center">
         <div className='flex flex-col lg:flex-row justify-center items-center'>
           <div className='flex flex-col justify-center items-center lg:block'>
             <div className='flex lg:float-left lg:mr-14 mb-4 lg:mt-10'>
-              <div className="flex justify-center items-center border-20 border-accentColor md:h-[380px] object-cover overflow-y-hidden object-top lg:w-[420px] lg:object-cover lg:overflow-visible lg:h-[420px]">
+              <div className="flex justify-center items-center border-10 md:border-20 border-accentColor md:h-[380px] object-cover overflow-y-hidden object-top lg:w-[420px] lg:object-cover lg:overflow-visible lg:h-[420px]">
                 <img 
                   className="relative drop-shadow-[0_0_0.3rem_#ffffff70] dark:drop-shadow-none object-cover object-top lg:-mt-16 lg:ml-16 float-left"
                   src="/kd-mountain.png"

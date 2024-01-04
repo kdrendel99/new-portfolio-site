@@ -26,7 +26,8 @@ const config: Config = {
       '20': '20px',
     },
     letterSpacing: {
-      'kd-wide': '.2em'
+      'kd-wide': '.2em',
+      'kd-wider': '.3em'
     },
     extend: {
       backgroundImage: {

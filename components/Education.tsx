@@ -54,11 +54,11 @@ export const Education = () => {
           <h1 className='text-2xl uppercase font-bold tracking-wider'>Education</h1>
         </div>
         
-        <div className='flex justify-center flex-col space-y-8 items-center w-[450px] md:w-[600px] xl:hidden py-16'>
+        <div className='flex px-10 justify-center flex-col space-y-8 items-center w-[450px] md:w-[600px] xl:hidden py-16'>
           {mobileOrder()}
         </div>
 
-        <div className='hidden xl:flex xl:flex-row items-start xl:w-[1200px] py-16 justify-start space-y-0 space-x-8'>  
+        <div className='hidden px-10 xl:flex xl:flex-row items-start xl:w-[1200px] py-16 justify-start space-y-0 space-x-8'>  
         {desktopOrder()}
         </div>
       </div>

@@ -26,11 +26,7 @@ export const Nav = () => {
     toggleHamburger()
   }
 
-  return (<div></div>)
-
   return (
-    // <div className={`${shouldShowNav ? 'top-0 sticky' : 'hidden'} z-50 transition-all duration-500`}>
-    // <div className={getNavClass()} style={{marginTop:'-54px'}}>
       <div className={`${shouldShowNav ? 'top-0' : '-mt-[54px] md:-mt-[60px]'} fixed w-full bg-white dark:bg-darkModeBg z-50 transition-all ease-in-out duration-500`}>
 
       <div className='block w-full py-1 bg-white dark:bg-darkModeBg md:hidden'>
@@ -40,7 +36,7 @@ export const Nav = () => {
               role='navigation'
               aria-label='Main Navigation'
           >
-            <div className={`flex justify-start items-center text-3xl  ${getLogoFont()}`}>
+            <div className={`flex justify-start items-center text-grey text-3xl  ${getLogoFont()}`}>
               Karlson Drendel
             </div>
 
