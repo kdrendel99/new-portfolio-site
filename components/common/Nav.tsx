@@ -83,42 +83,42 @@ export const Nav = () => {
             isOpenHamburger ? '' : 'hidden'
             }`}>
               <div
-                  className={`fixed inset-0 bg-black opacity-40 h-screen overscroll-none backdrop-blur-xl ${
-                      isOpenHamburger ? 'block' : 'hidden'
+                  className={`fixed inset-0 h-full overscroll-none overflow-hidden bg-[#000000] opacity-50 ${
+                      isOpenHamburger ? 'block fadeIn' : 'hidden'
                   }`}
                   onClick={() => toggleHamburger()}
               />
               <nav
                   className={`fixed top-[44px] -right-[384px] bottom-0 ${
                       isOpenHamburger ? 'navbar-slide-in' : 'navbar-slide-out'
-                  } flex flex-col w-[384px] max-w-sm px-6 py-6 border-r border-r-white bg-white dark:bg-darkModeBg z-50`}
+                  } flex flex-col w-[210px] max-w-sm py-6  bg-white dark:bg-darkModeBg z-50`}
               >
-                  <div className='uppercase text-xl font-america dark:text-grey text-accentColor'>
+                  <div className='font-america dark:text-grey text-accentColor'>
                           <ul>
-                              <li className='mb-10 hover:cursor-pointer'>
+                              <li className='px-6 mb-10 hover:cursor-pointer'>
                                 Home
                               </li>
-                              <li className='mb-10 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.ABOUT)}>
+                              <li className='px-6 mb-10 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.ABOUT)}>
                                 About
                               </li>
-                              <li className='mb-10 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.RESUME)}>
+                              <li className='px-6 mb-10 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.RESUME)}>
                                 Resume
                               </li>
-                              {/* <li className='mb-10 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.PERSONAL)}>
+                              {/* <li className='px-6 mb-10 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.PERSONAL)}>
                                 Blog/Photo
                               </li> */}
-                              <li className='mb-10 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.CONTACT)}>
+                              <li className='px-6 mb-10 hover:cursor-pointer border-b-4 border-[#000000]' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.CONTACT)}>
                                 Contact
                               </li>
                           </ul>
                   </div>
                   <div className='mt-auto'>
-                      {/* <div className='pt-6'>
-                          <div className='block py-3 mb-3 text-xs text-center'>
-                              Drendel.co
+                      <div className='pt-6'>
+                          <div className='text-grey block py-3 mb-3 text-xs text-center'>
+                              Karlson Drendel
                           </div>
-                      </div> */}
-                      <p className='my-4 text-xs text-center text-gray-400 dark:text-grey uppercase font-america'>
+                      </div>
+                      <p className='my-4 text-xs text-center text-grey dark:text-grey uppercase font-america'>
                           <span>Copyright © 2023</span>
                       </p>
                   </div>
@@ -127,7 +127,7 @@ export const Nav = () => {
       </div>
 
 
-      <div className="hidden md:flex w-full items-center justify-center px-6 sticky top-0 dark:backdrop-blur-md z-50 bg-white dark:bg-darkModeBg">
+      <div className="hidden md:flex w-full items-center justify-center px-6 sticky top-0 backdrop-blur-md z-50 bg-white dark:bg-darkModeBg">
         <div className='flex w-full justify-between'>
           <div className='flex w-full justify-center'>
             <div 

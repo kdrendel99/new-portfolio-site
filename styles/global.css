@@ -72,8 +72,12 @@ body {
   color: var(--accentColor);
 }
 
+.fadeIn {
+  animation: fadeIn 0.2s ease-in-out forwards;
+}
+
 .navbar-slide-in {
-  animation: slide_in 250ms ease-in-out forwards;
+  animation: slide_in 500ms ease-in-out forwards;
 }
 
 .navbar-slide-out {
@@ -97,5 +101,15 @@ body {
 
   100%{
       transform: translateX(0px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 0.5;
   }
 }

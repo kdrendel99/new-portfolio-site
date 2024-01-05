@@ -9,9 +9,9 @@ export const About = () => {
         <div className='flex flex-col lg:flex-row justify-center items-center'>
           <div className='flex flex-col justify-center items-center lg:block'>
             <div className='flex lg:float-left lg:mr-14 mb-4 lg:mt-10'>
-              <div className="flex justify-center items-center border-10 md:border-20 border-accentColor md:h-[380px] object-cover overflow-y-hidden object-top lg:w-[420px] lg:object-cover lg:overflow-visible lg:h-[420px]">
+              <div className="flex justify-center items-center border-10 border-accentColor md:h-[380px] object-cover overflow-y-hidden object-top lg:w-[420px] lg:object-cover lg:overflow-visible lg:h-[420px]">
                 <img 
-                  className="relative drop-shadow-[0_0_0.3rem_#ffffff70] dark:drop-shadow-none object-cover object-top lg:-mt-16 lg:ml-16 float-left"
+                  className="relative drop-shadow-[0_0_0.3rem_#ffffff70] dark:drop-shadow-none object-cover object-top lg:-mt-10 lg:ml-10 float-left h-[400px]"
                   src="/kd-mountain.png"
                   alt="A photo of me."
                 />

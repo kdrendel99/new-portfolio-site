@@ -27,11 +27,11 @@ export const Hero = () => {
           <div className="w-full flex justify-center md:px-24 pt-20">
             <div className='flex flex-col'>
               <div className='text-center flex flex-col justify-center items-center'>
-                <h1 className='text-offwhite text-4xl lg:text-6xl uppercase font-medium tracking-kd-wide font-bookletter md:text-5xl'>
+                <h1 className='text-offwhite  text-4xl lg:text-6xl uppercase font-medium tracking-kd-wide font-bookletter md:text-5xl'>
                   Karlson <br/> Drendel
                 </h1>
                 <br/>
-                <h1 className='text-offwhite md:text-2xl uppercase font-light tracking-kd-wide'>
+                <h1 className='text-[#c9c7c7] md:text-xl uppercase font-thin tracking-kd-wide'>
                   <Typed 
                     strings={['software engineer', 'Graphic Designer', 'Creative Thinker']}
                     typeSpeed={100}
