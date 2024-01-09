@@ -8,7 +8,6 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const Hero = () => {
-
     const getHeroPhoto = () => {
       let photoToUse = ''
 
@@ -18,11 +17,12 @@ export const Hero = () => {
       // photoToUse = 'larch.jpg'
 
       return `flex w-full flex-col justify-center items-start h-[90vh] md:h-[90vh] bg-[url('/${photoToUse}')] bg-cover bg-bottom bg-no-repeat z-10 xl:bg-center`
-      // return `flex w-full  justify-center items-center h-[90vh] bg-[url('/${photoToUse}')] bg-cover bg-no-repeat px-24 z-10`
     }
 
+    // const typedText = ['software engineer', 'Graphic Designer', 'Creative Thinker']
+    const typedText = ['software engineer', 'Full Stack Developer', 'Creative Thinker']
+
     return (
-        // <div className="flex w-full flex-col justify-center items-start h-[90vh] bg-[url('/ak-6.png')] bg-cover bg-no-repeat px-24 z-10">
         <div className={getHeroPhoto()}>
           <div className="w-full flex justify-center md:px-24 pt-20">
             <div className='flex flex-col'>
@@ -33,7 +33,7 @@ export const Hero = () => {
                 <br/>
                 <h1 className='text-[#c9c7c7] md:text-xl uppercase font-thin tracking-kd-wide'>
                   <Typed 
-                    strings={['software engineer', 'Graphic Designer', 'Creative Thinker']}
+                    strings={typedText}
                     typeSpeed={100}
                     backSpeed={80}
                     loop
