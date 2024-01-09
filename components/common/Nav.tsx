@@ -95,32 +95,31 @@ export const Nav = () => {
               >
                   <div className='font-america dark:text-grey text-accentColor'>
                           <ul>
-                              <li className='px-6 mb-10 hover:cursor-pointer'>
+                              <li className='px-6 mb-10 hover:cursor-pointer hover:underline underline-offset-4'>
                                 Home
                               </li>
-                              <li className='px-6 mb-10 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.ABOUT)}>
+                              <li className='px-6 mb-10 hover:cursor-pointer hover:underline underline-offset-4' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.ABOUT)}>
                                 About
                               </li>
-                              <li className='px-6 mb-10 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.RESUME)}>
+                              <li className='px-6 mb-10 hover:cursor-pointer hover:underline underline-offset-4' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.RESUME)}>
                                 Resume
                               </li>
-                              {/* <li className='px-6 mb-10 hover:cursor-pointer' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.PERSONAL)}>
+                              {/* <li className='px-6 mb-10 hover:cursor-pointer hover:underline underline-offset-4' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.PERSONAL)}>
                                 Blog/Photo
                               </li> */}
-                              <li className='px-6 mb-10 hover:cursor-pointer border-b-4 border-[#000000]' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.CONTACT)}>
+                              <li className='px-6 mb-10 hover:cursor-pointer hover:underline underline-offset-4 border-b-4 border-[#000000]' onClick={() => handleMobileNavClick(SCROLL_ELEMENTS.CONTACT)}>
                                 Contact
                               </li>
                           </ul>
                   </div>
                   <div className='mt-auto'>
                       <div className='pt-6'>
-                          <div className='text-grey block py-3 mb-3 text-xs text-center'>
+                          <div className='text-grey block py-3 text-xs text-center dark:text-grey font-america'>
                               Karlson Drendel
+                              <br/>
+                              Copyright © {(new Date().getFullYear())}
                           </div>
                       </div>
-                      <p className='my-4 text-xs text-center text-grey dark:text-grey uppercase font-america'>
-                          <span>Copyright © 2023</span>
-                      </p>
                   </div>
               </nav>
           </div>
