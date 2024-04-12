@@ -13,7 +13,7 @@ export const Contact = () => {
             <p>Vancouver WA, United States</p>
             <p>(360)-553-8451</p>
             {/* <p>kdrendel99@gmail.com</p> */}
-            <a className='' href="mailto:kdrendel99@gmail.com?subject=Let's get in touch!">kdrendel99@gmail.com</a>
+            <a className='hover:underline' href="mailto:kdrendel99@gmail.com?subject=Let's get in touch!">kdrendel99@gmail.com</a>
             <a className='text-accentColor2 dark:text-accentColor hover:underline hover:cursor-pointer' href="/Karlson Drendel Resume.pdf" target="_blank" >Resume</a>
           </div>
           <Mailer />

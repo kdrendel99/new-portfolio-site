@@ -40,7 +40,7 @@ export const Resume = () => {
           "Worked individually with students to optimize and debug web applications",
           "Assisted in teaching students full-stack development fundamentals and best practices",
         ]}
-        time='June 2021 - March 2022'
+        time='June 2020 - March 2022'
     />
 
 
@@ -57,9 +57,9 @@ export const Resume = () => {
     const desktopOrder = () => {
       return (
         <>
-          {epicodus}
-          {ascend}
           {covey}
+          {ascend}
+          {epicodus}
         </>
       )
     }
@@ -70,7 +70,7 @@ export const Resume = () => {
           <h1 className='text-2xl uppercase font-bold tracking-wider'>Experience</h1>
         </div>
         
-        <div className='flex justify-center flex-col space-y-8 items-center w-[450px] md:w-[600px] xl:hidden py-16 px-10'>
+        <div className='flex justify-center flex-col space-y-16 items-center w-[450px] md:w-[600px] xl:hidden py-16 px-10'>
           {mobileOrder()}
         </div>
 

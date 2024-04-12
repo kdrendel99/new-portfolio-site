@@ -109,6 +109,9 @@ export const Mailer = () => {
         </button>
 
       </form>
+      <div className='text-grey font-thin flex w-full justify-center items-center mt-5'>
+        <p>Or, schedule a chat with me on <a target="__blank" href="https://calendly.com/karlson-drendel/30min" className='underline underline-offset-2 dark:text-accentColor text-accentColor'>Calendly</a>!</p>
+      </div>
 
     </div>
   );

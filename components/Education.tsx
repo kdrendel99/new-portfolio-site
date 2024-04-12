@@ -16,7 +16,7 @@ export const Education = () => {
           "Engaged in daily pair-programming and collaborative problem solving.",
           "Consistently maintained 40+ hour work weeks solely dedicated to studying and practicing application development/programming concepts.",
         ]}
-        time = 'Jan 2021 - Oct 2021'
+        time = 'Dec 2020 - Oct 2021'
     />
 
     const clark = <ResumeCard 
@@ -54,7 +54,7 @@ export const Education = () => {
           <h1 className='text-2xl uppercase font-bold tracking-wider'>Education</h1>
         </div>
         
-        <div className='flex px-10 justify-center flex-col space-y-8 items-center w-[450px] md:w-[600px] xl:hidden py-16'>
+        <div className='flex px-10 justify-center flex-col space-y-16 items-center w-[450px] md:w-[600px] xl:hidden py-16'>
           {mobileOrder()}
         </div>
 

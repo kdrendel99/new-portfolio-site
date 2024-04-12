@@ -7,23 +7,25 @@ import { faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+
 export const Hero = () => {
-    const getHeroPhoto = () => {
-      let photoToUse = ''
+    // const getHeroPhoto = () => {
+    //   // let photoToUse = ''
 
-      photoToUse = 'ak-6.png'
-      // photoToUse = 'ak-4.png'
-      // photoToUse = 'ak-5.png'
-      // photoToUse = 'larch.jpg'
+    //   // photoToUse = 'ak-6.png'
+    //   // photoToUse = 'ak-4.png'
+    //   // photoToUse = 'ak-5.png'
+    //   // photoToUse = 'larch.jpg'
 
-      return `flex w-full flex-col justify-center items-start h-[90vh] md:h-[90vh] bg-[url('/${photoToUse}')] bg-cover bg-bottom bg-no-repeat z-10 xl:bg-center`
-    }
+    //   // return `flex w-full flex-col justify-center items-start h-[90vh] md:h-[90vh] bg-[url('/${photoToUse}')] bg-cover bg-bottom bg-no-repeat z-10 xl:bg-center`
+    // }
 
     // const typedText = ['software engineer', 'Graphic Designer', 'Creative Thinker']
     const typedText = ['software engineer', 'Full Stack Developer', 'Creative Thinker']
 
     return (
-        <div className={getHeroPhoto()}>
+        // <div className={getHeroPhoto()}>
+        <div className={`flex w-full flex-col justify-center items-start h-[90vh] md:h-[90vh] bg-hero-img bg-cover bg-bottom bg-no-repeat z-10 xl:bg-center`}>
           <div className="w-full flex justify-center md:px-24 pt-20">
             <div className='flex flex-col'>
               <div className='text-center flex flex-col justify-center items-center'>
