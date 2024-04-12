@@ -19,7 +19,8 @@ const config: Config = {
       accentColor2: '#434535',
       white: '#ffffff',
       offwhite: '#f7f7f7',
-      darkModeBg: '#1d1d1d'
+      darkModeBg: '#1d1d1d',
+      black: '#000000'
     },
     borderWidth: {
       '10': '10px',

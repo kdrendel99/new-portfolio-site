@@ -104,7 +104,7 @@ export const Mailer = () => {
 
         <button type="submit" value="Submit" 
         disabled={loading || error.length > 0 || !loading && hasSent}
-        className={`dark:bg-accentColor bg-accentColor hover:font-normal uppercase text-sm tracking-kd-wide py-4 font-thin w-full text-white hover:cursor-pointer h-[52px] flex justify-center items-center ${loading ? 'bg-darkGrey' : ''} dark:${loading ? 'bg-darkGrey' : ''} disabled:hover:cursor-default`}>
+        className={`dark:bg-accentColor hover:shadow-xl transition-all bg-accentColor hover:font-normal uppercase text-sm tracking-kd-wide py-4 font-thin w-full text-white hover:cursor-pointer h-[52px] flex justify-center items-center ${loading ? 'bg-darkGrey' : ''} dark:${loading ? 'bg-darkGrey' : ''} disabled:hover:cursor-default`}>
           {renderButton()}
         </button>
 

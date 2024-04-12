@@ -77,6 +77,11 @@ export const Resume = () => {
         <div className='hidden xl:flex xl:flex-row items-start xl:w-[1200px] py-16 justify-start space-y-0 space-x-8 px-10'>  
         {desktopOrder()}
         </div>
+        <div className='w-full flex justify-center items-center mb-16 mt-2'>
+          <button className='flex dark:bg-black bg-darkModeBg tracking-kd-wide text-white font-thin hover:font-extralight text-xs uppercase hover:cursor-pointer hover:shadow-lg transition-all'>
+            <a className='px-5 py-3' href="https://www.figma.com/file/EpU3WLrH5vQQciZ0nljETs/Figma-basics?type=design&node-id=1669%3A162202&mode=design&t=V3JEVu2Rjwm9n82f-1" target="_blank">UI/UX Design Portfolio</a>
+          </button>
+        </div>
       </div>
     );
 };
