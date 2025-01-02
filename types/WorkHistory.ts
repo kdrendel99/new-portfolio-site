@@ -1,4 +1,4 @@
-interface WorkHistory {
+export interface WorkHistory {
   img: string; // path to the image to show
   title: string;
   subtitle: string; // employer/org
