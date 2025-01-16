@@ -1,50 +1,31 @@
-@import './colors.css';
+@import "./colors.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap");
 
 @font-face {
   font-family: "nwt";
   src: url("../public/fonts/NWT.otf");
 }
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-  --grey: #999999;
-  --darkGrey: #898989;
-  --accentColor: #6F7259;
-  --accentColor2: #434535;
-  --white: #ffffff;
-  --offwhite: #f7f7f7;
-  --darkModeBg: #1d1d1d;
-  --red: #f44336;
-  --blue: #2196F3;
-} */
+@font-face {
+  font-family: "cowbow";
+  src: url("../public/fonts/Cowboy-Standard.otf");
+}
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --red: #2196F3;
-  }
-} */
+@font-face {
+  font-family: "ranch";
+  src: url("../public/fonts/RanchWater.otf");
+}
 
 html {
   scroll-behavior: smooth;
 }
 
-@media (max-width:801px)  {
+@media (max-width: 801px) {
   html {
     min-width: 450px;
   }
@@ -85,31 +66,31 @@ body {
 }
 
 @keyframes slide_in {
-  0%{
-      transform: translateX(0px);
+  0% {
+    transform: translateX(0px);
   }
 
-  100%{
-      transform: translateX(-384px);
+  100% {
+    transform: translateX(-384px);
   }
 }
 
 @keyframes slide_out {
-  0%{
-      transform: translateX(-384px);
+  0% {
+    transform: translateX(-384px);
   }
 
-  100%{
-      transform: translateX(0px);
+  100% {
+    transform: translateX(0px);
   }
 }
 
 @keyframes fadeIn {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
 
   100% {
-      opacity: 0.5;
+    opacity: 0.5;
   }
 }
