@@ -4,17 +4,20 @@
   --background-end-rgb: 255, 255, 255;
   --grey: #999999;
   --darkGrey: #898989;
-  --accentColor: #6F7259;
+  --accentColor: #6f7259;
   --accentColor2: #434535;
   --white: #ffffff;
   --offwhite: #f7f7f7;
+  --mutedBlack: #212121;
+  --softBlack: #292727;
+  --offBlack: #1d1d1d;
   --darkModeBg: #1d1d1d;
   --red: #f44336;
-  --blue: #2196F3;
+  --blue: #2196f3;
 }
 
 [data-theme="dark"] {
-  --red: #2196F3;
+  --red: #2196f3;
 }
 
 /* @media (prefers-color-scheme: dark) {

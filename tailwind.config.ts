@@ -22,6 +22,9 @@ const config: Config = {
       offwhite: "#f7f7f7",
       darkModeBg: "#1d1d1d",
       black: "#000000",
+      mutedBlack: "#212121",
+      softBlack: "#292727",
+      offBlack: "#1d1d1d",
     },
     borderWidth: {
       "10": "10px",

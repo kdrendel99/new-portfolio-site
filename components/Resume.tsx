@@ -6,7 +6,7 @@ import { workExperience } from "@/data/workExperience";
 
 export const Resume = () => {
   return (
-    <div className="w-full flex justify-center items-center flex-col bg-white dark:bg-[#292727]">
+    <div className="w-full flex justify-center items-center flex-col bg-white dark:bg-softBlack">
       <div className="py-8 flex w-full bg-accentColor text-white dark:text-offwhite text-center justify-center items-center">
         <h1 className="text-2xl uppercase font-bold tracking-wider">
           Experience
