@@ -12,7 +12,7 @@ export const Contact = () => {
             </p>
           </div>
           <p>Vancouver WA, United States</p>
-          <p>(360)-553-8451</p>
+          <a href="tel:+13609466802">(360) 946-6802</a>
           {/* <p>kdrendel99@gmail.com</p> */}
           <a
             className="hover:underline"
