@@ -52,14 +52,14 @@ export const workExperience: WorkHistory[] = [
     ],
     time: "Sept 2021 - Feb 2022",
   },
-  {
-    img: "/resume/epicodus.png",
-    title: "Engineering Tutor",
-    subtitle: "Epicodus",
-    description: [
-      "Worked individually with students to optimize and debug web applications",
-      "Assisted in teaching students full-stack development fundamentals and best practices",
-    ],
-    time: "June 2020 - March 2022",
-  },
+  // {
+  //   img: "/resume/epicodus.png",
+  //   title: "Engineering Tutor",
+  //   subtitle: "Epicodus",
+  //   description: [
+  //     "Worked individually with students to optimize and debug web applications",
+  //     "Assisted in teaching students full-stack development fundamentals and best practices",
+  //   ],
+  //   time: "June 2020 - March 2022",
+  // },
 ];
